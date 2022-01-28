@@ -11,11 +11,6 @@ Coding Assignment – Super Simple Stock Market
     * Calculate Volume Weighted Stock Price based on trades in past 15 minutes
   * Calculate the GBCE All Share Index using the geometric mean of prices for all stocks traded price
 
-#Constraints & Notes
-
-* Written in one of these languages: Java, C#, C++, Python
-* No database or GUI is required, all data need only be held in memory
-* No prior knowledge of stock markets or trading is required – all formulas are provided below.
 
 #Features of the Project
 * It uses Spring Boot and Java 8. 
@@ -27,13 +22,6 @@ Coding Assignment – Super Simple Stock Market
 This is a maven project, so you can run these 2 goals:
 * mvn test -> to execute the unit tests.
 * mvn package -> to generate the executable jar.
-
-To run the program just run:
-* java -jar super-simple-stock-market-0.1.0.jar
-
-To run the REST APIs
-* After the Server is started by the above command. Please open http://localhost:8080/swagger-ui.html# on Browser
-* Now we can run the APIs by filling appropriate values needed for the APIs
 
 
 #Controller Classes
